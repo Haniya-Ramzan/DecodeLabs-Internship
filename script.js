@@ -1,6 +1,6 @@
-// ==============================
+
 // Smooth Scroll Navigation
-// ==============================
+
 
 document.querySelectorAll('.nav-links a').forEach(link => {
 
@@ -25,9 +25,9 @@ document.querySelectorAll('.nav-links a').forEach(link => {
 });
 
 
-// ==============================
+
 // Contact Form Validation
-// ==============================
+
 
 const form = document.getElementById("contactForm");
 
@@ -70,9 +70,8 @@ if(form){
 }
 
 
-// ==============================
 // Navbar Color Change
-// ==============================
+
 
 const header = document.querySelector("header");
 
@@ -93,9 +92,9 @@ window.addEventListener("scroll", function(){
 });
 
 
-// ==============================
+
 // Hero Button Animation
-// ==============================
+
 
 const button = document.querySelector(".btn");
 
@@ -144,9 +143,9 @@ if(subscribeBtn){
     });
 
 }
-// ==============================
+
 // Pricing Plan Buttons
-// ==============================
+
 
 const pricingButtons =
 document.querySelectorAll(".price-btn");
@@ -181,9 +180,8 @@ consultationForm.addEventListener("submit", function(e){
 
 });
 
-// ==============================
 // Welcome Message
-// ==============================
+
 
 window.onload = function(){
 
